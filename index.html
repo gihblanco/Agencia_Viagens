@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giulia Monte Blanco - Viagens</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -12,17 +13,17 @@
         <h1>Agência de viagens</h1>
         <nav>
             <ul>
-                <li>Inscrição</li>
-                <li>Mídia</li>
+                <a href="#forms">Inscrição</a><br>
+                <a href="#midia">Mídia</a>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="forms">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsa rerum atque nostrum esse
                 pariatur perspiciatis, quisquam ullam distinctio? Nobis delectus debitis saepe accusamus quia nam at
                 dolorum rem quo.</p>
-            <form action=”script.php” method=”post”>
+            <form  method=”post” value="">
                 <label for="nome" required>Nome:</label>
                 <input type="text" id="nome"><br><br>
 
@@ -65,10 +66,10 @@
                 <textarea id="sujestoes" name="sujestoes"></textarea><br><br>
 
                 <button type="reset">Limpar campos</button>
-                <button type="submit">Salvar</button>
+                <button type="submit" onclick="alertar()">Salvar</button>
             </form>
         </section>
-        <section>
+        <section id="midia">
             <br><br><label>Cultura</label><br>
             <img name="foto_um" src="foto_um.jpg" alt="Primeira foto minha" width="200" height="300" />
 

@@ -1,0 +1,24 @@
+Exercício!!
+
+Crie uma página HTML básica com: 
+
+❖ Um cabeçalho contendo um título, e uma barra de navegação com links para 
+acessar cada um dos blocos.
+
+❖ Abaixo do cabeçalho adicione dois blocos. O primeiro deve conter um parágrafo e 
+um formulário. No segundo deve conter duas imagens, um video e um áudio, todos
+com label.
+
+❖ Abaixo dos blocos adicione um rodapé
+
+No formulário adicione: 
+
+❖ Um input de cada tipo com labels, 
+
+❖ Um combobox com label,
+
+❖ Uma área de texto com label,
+
+❖ Um Botão de Salvar e outro para Limpar os campos.
+
+O formulário deve ter uma action com value vazio e seu método deve ser POST.
