@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giulia Monte Blanco - Viagens</title>
+</head>
+
+<body>
+    <header>
+        <h1>Agência de viagens</h1>
+        <nav>
+            <ul>
+                <li>Inscrição</li>
+                <li>Mídia</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsa rerum atque nostrum esse
+                pariatur perspiciatis, quisquam ullam distinctio? Nobis delectus debitis saepe accusamus quia nam at
+                dolorum rem quo.</p>
+            <form action=”script.php” method=”post”>
+                <label for="nome" required>Nome:</label>
+                <input type="text" id="nome"><br><br>
+
+                <label for="email" require>Email:</label>
+                <input type="email" id="email"><br><br>
+
+                <label for="senha" required>Senha:</label>
+                <input type="password" id="senha"><br><br>
+
+                <label>Estado civil:</label><br>
+                <label>Solteiro(a)
+                    <input type="radio" name="estado_civil" value="Solteiro(a)">
+                </label>
+                <label>Casado(a)
+                    <input type="radio" name="estado_civil" value="Casado(a)"><br><br>
+                </label>
+
+                <label>Hobbies:</label><br>
+                <label>
+                    <input type="checkbox" name="hobbie" value="Surf">Surf
+                </label>
+                <label>
+                    <input type="checkbox" name="hobbie" value="Leitura">Leitura
+                </label>
+                <label>
+                    <input type="checkbox" name="hobbie" value="Música">Música
+                </label><br><br>
+
+                <label for="destinos">Qual destino é de seu interesse?</label><br>
+                <select id="destinos">
+                    <option value="africa" >África</option>
+                    <option value="londres">Londres</option>
+                    <option value="havai">Hawaii</option>
+                    <option value="bali">Bali</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="jerusalem">Jerusalem</option>
+                </select><br><br>
+
+                <label for="sujestoes">Quais são as suas expectativas e objetivos com essa viagem? Conta para a gente!</label><br>
+                <textarea id="sujestoes" name="sujestoes"></textarea><br><br>
+
+                <button type="reset">Limpar campos</button>
+                <button type="submit">Salvar</button>
+            </form>
+        </section>
+        <section>
+            <br><br><label>Cultura</label><br>
+            <img name="foto_um" src="foto_um.jpg" alt="Primeira foto minha" width="200" height="300" />
+
+            <br><br><label>Arte moderna</label><br>
+            <img name="foto_dois" src="foto_dois.jpg" alt="Segunda foto minha" width="200" height="300" />
+
+            <br><br><label>Aventura</label><br>
+            <video width="200" height="300" controls loop autoplay muted poster="video.jpg">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+
+            <br><br><label>Música</label><br>
+            <audio width="200" controls loop autoplay>
+                <source src="alok_musica.mp3" type="audio/mp3">
+            </audio>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
